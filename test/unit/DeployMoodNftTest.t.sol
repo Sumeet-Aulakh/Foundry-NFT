@@ -22,7 +22,6 @@ contract DeployMoodNftTest is Test {
         string
             memory svg = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500"><text x="0" y="15" fill="black">Hi! Your browser decoded this</text></svg>';
         string memory createdSvg = deployer.svgToImageURI(svg);
-
         assert(
             keccak256(abi.encodePacked(expectedUri)) ==
                 keccak256(abi.encodePacked(createdSvg))
