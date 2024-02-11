@@ -140,7 +140,3 @@ forge fmt
 
 # Thank you!
 
-## Credits
-
-https://github.com/Cyfrin/
-https://github.com/Sumeet-Aulakh
